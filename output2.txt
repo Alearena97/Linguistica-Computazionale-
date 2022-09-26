@@ -1,0 +1,523 @@
+analisi primo corpus
+
+I venti token piu' frequenti esclusa la punteggiatura sono
+
+1 the 279
+2 and 177
+3 i 141
+4 a 139
+5 to 118
+6 it 102
+7 is 70
+8 for 66
+9 of 66
+10 you 61
+11 was 53
+12 in 51
+13 this 45
+14 that 45
+15 with 44
+16 very 40
+17 so 39
+18 egg 38
+19 on 37
+20 n't 32
+
+I 20 sostantivi piu' frequenti sono
+
+1 i 68
+2 egg 37
+3 sandwich 29
+4 breakfast 29
+5 room 21
+6 sandwiches 18
+7 staff 18
+8 minutes 17
+9 i 17
+10 eggs 14
+11 everything 13
+12 maker 12
+13 location 12
+14 time 10
+15 day 9
+16 muffins 9
+17 slices 9
+18 bread 8
+19 machine 8
+20 ingredients 8
+
+I 20 aggettivi piu' frequenti sono
+
+1 i 28
+2 great 17
+3 good 16
+4 comfortable 13
+5 nice 13
+6 clean 12
+7 little 12
+8 english 9
+9 hot 8
+10 other 7
+11 much 7
+12 easy 7
+13 second 6
+14 helpful 6
+15 best 6
+16 sure 6
+17 cheese 6
+18 top 6
+19 fine 6
+20 big 6
+
+I 10 POS piu' frequenti sono
+
+1 .
+2 DT
+3 ,
+4 CC
+5 TO
+6 PRP
+7 VBZ
+8 NN
+9 IN
+10 VBD
+
+I venti bigrammi di token piu' frequenti, escluse le congiunzioni, gli articoli e la punteggiatura, sono:
+
+1 (((u'breakfast', 'NN'), (u'sandwich', 'NN')), 13)
+2 (((u'i', 'NNS'), (u'have', 'VBP')), 12)
+3 (((u'it', 'PRP'), (u"'s", 'VBZ')), 12)
+4 (((u'do', 'VBP'), (u"n't", 'RB')), 11)
+5 (((u'sandwich', 'NN'), (u'maker', 'NN')), 11)
+6 (((u'you', 'PRP'), (u'can', 'MD')), 9)
+7 (((u'it', 'PRP'), (u'is', 'VBZ')), 8)
+8 (((u'was', 'VBD'), (u'very', 'RB')), 7)
+9 (((u'english', 'JJ'), (u'muffins', 'NNS')), 7)
+10 (((u'five', 'CD'), (u'minutes', 'NNS')), 7)
+11 (((u'were', 'VBD'), (u'very', 'RB')), 6)
+12 (((u'you', 'PRP'), (u'do', 'VBP')), 6)
+13 (((u'staff', 'NN'), (u'were', 'VBD')), 6)
+14 (((u'you', 'PRP'), (u'have', 'VBP')), 5)
+15 (((u'to', 'TO'), (u'get', 'VB')), 5)
+16 (((u'i', 'NN'), (u'would', 'MD')), 5)
+17 (((u'to', 'TO'), (u'cook', 'VB')), 5)
+18 (((u'i', 'VB'), (u'love', 'VBP')), 5)
+19 (((u'which', 'WDT'), (u'is', 'VBZ')), 5)
+20 (((u'i', 'NN'), (u'had', 'VBD')), 5)
+
+ I dieci bigrammi di POS piu' frequenti sono:
+
+1 (('DT', 'NN'), 308)
+2 (('JJ', 'NN'), 190)
+3 (('IN', 'DT'), 178)
+4 (('NN', 'IN'), 157)
+5 (('NN', '.'), 137)
+6 (('DT', 'JJ'), 132)
+7 (('NN', 'NN'), 116)
+8 (('TO', 'VB'), 89)
+9 (('NN', 'VBD'), 80)
+10 (('.', 'DT'), 78)
+
+ I dieci trigrammi di POS piu' frequenti sono:
+
+1 (('IN', 'DT', 'NN'), 109)
+2 (('DT', 'JJ', 'NN'), 94)
+3 (('NN', 'IN', 'DT'), 55)
+4 (('DT', 'NN', 'IN'), 54)
+5 (('DT', 'NN', 'NN'), 53)
+6 (('.', 'DT', 'NN'), 43)
+7 (('IN', 'DT', 'JJ'), 40)
+8 (('JJ', 'NN', '.'), 37)
+9 (('JJ', 'NN', 'IN'), 37)
+10 (('DT', 'NN', '.'), 37)
+
+I venti bigrammi composti da aggettivo-sostantivo con frequenza di token maggiore di 2 sono:
+
+1 (((u'english', 'JJ'), (u'muffins', 'NNS')), 7)
+con frequenze di english 14 e muffins 9
+con probabilita di english 0.00246218782976
+con probabilita di muffins 0.00158283503342
+e probabilita congiunta di 0.00123109391488 con Local Mutual Information di 8.30327338224 
+
+2 (((u'cheese', 'JJ'), (u'slices', 'NNS')), 4)
+con frequenze di cheese 3 e slices 3
+con probabilita di cheese 0.000527611677805
+con probabilita di slices 0.000527611677805
+e probabilita congiunta di 0.000703482237074 con Local Mutual Information di 11.3032733822 
+
+3 (((u'thirty', 'JJ'), (u'seconds', 'NNS')), 2)
+con frequenze di thirty 11 e seconds 4
+con probabilita di thirty 0.00193457615195
+con probabilita di seconds 0.000703482237074
+e probabilita congiunta di 0.000351741118537 con Local Mutual Information di 8.01376676504 
+
+4 (((u'english', 'JJ'), (u'muffin', 'NN')), 2)
+con frequenze di english 2 e muffin 6
+con probabilita di english 0.000351741118537
+con probabilita di muffin 0.00105522335561
+e probabilita congiunta di 0.000351741118537 con Local Mutual Information di 9.88823588296 
+
+5 (((u'central', 'JJ'), (u'station', 'NN')), 2)
+con frequenze di central 2 e station 3
+con probabilita di central 0.000351741118537
+con probabilita di station 0.000527611677805
+e probabilita congiunta di 0.000351741118537 con Local Mutual Information di 10.888235883 
+
+6 (((u'thin', 'JJ'), (u'slice', 'NN')), 2)
+con frequenze di thin 3 e slice 17
+con probabilita di thin 0.000527611677805
+con probabilita di slice 0.00298979950756
+e probabilita congiunta di 0.000351741118537 con Local Mutual Information di 7.80077304171 
+
+7 (((u'ten', 'JJ'), (u'minutes', 'NNS')), 2)
+con frequenze di ten 16 e minutes 4
+con probabilita di ten 0.00281392894829
+con probabilita di minutes 0.000703482237074
+e probabilita congiunta di 0.000351741118537 con Local Mutual Information di 7.47319838368 
+
+8 (((u'good', 'JJ'), (u'blender', 'NN')), 2)
+con frequenze di good 5 e blender 12
+con probabilita di good 0.000879352796342
+con probabilita di blender 0.00211044671122
+e probabilita congiunta di 0.000351741118537 con Local Mutual Information di 7.56630778807 
+
+9 (((u'excellent', 'JJ'), (u'location', 'NN')), 2)
+con frequenze di excellent 5 e location 9
+con probabilita di excellent 0.000879352796342
+con probabilita di location 0.00158283503342
+e probabilita congiunta di 0.000351741118537 con Local Mutual Information di 7.98134528735 
+
+10 (((u'super', 'JJ'), (u'easy', 'NN')), 2)
+con frequenze di super 4 e easy 3
+con probabilita di super 0.000703482237074
+con probabilita di easy 0.000527611677805
+e probabilita congiunta di 0.000351741118537 con Local Mutual Information di 9.88823588296 
+
+11 (((u'short', 'JJ'), (u'walk', 'NN')), 2)
+con frequenze di short 7 e walk 2
+con probabilita di short 0.00123109391488
+con probabilita di walk 0.000351741118537
+e probabilita congiunta di 0.000351741118537 con Local Mutual Information di 9.66584346162 
+
+12 (((u'other', 'JJ'), (u'blenders', 'NNS')), 2)
+con frequenze di other 3 e blenders 2
+con probabilita di other 0.000527611677805
+con probabilita di blenders 0.000351741118537
+e probabilita congiunta di 0.000351741118537 con Local Mutual Information di 10.888235883 
+
+13 (((u'decent', 'JJ'), (u'size', 'NN')), 2)
+con frequenze di decent 12 e size 8
+con probabilita di decent 0.00211044671122
+con probabilita di size 0.00140696447415
+e probabilita congiunta di 0.000351741118537 con Local Mutual Information di 6.88823588296 
+
+14 (((u'little', 'JJ'), (u'machine', 'NN')), 2)
+con frequenze di little 4 e machine 6
+con probabilita di little 0.000703482237074
+con probabilita di machine 0.00105522335561
+e probabilita congiunta di 0.000351741118537 con Local Mutual Information di 8.88823588296 
+
+15 (((u'fast', 'JJ'), (u'food', 'NN')), 2)
+con frequenze di fast 2 e food 32
+con probabilita di fast 0.000351741118537
+con probabilita di food 0.00562785789659
+e probabilita congiunta di 0.000351741118537 con Local Mutual Information di 7.47319838368 
+
+16 (((u'healthy', 'JJ'), (u'breakfast', 'NN')), 1)
+con frequenze di healthy 6 e breakfast 2
+con probabilita di healthy 0.00105522335561
+con probabilita di breakfast 0.000351741118537
+e probabilita congiunta di 0.000175870559268 con Local Mutual Information di 8.88823588296 
+
+17 (((u'best', 'JJS'), (u'tasting', 'NN')), 1)
+con frequenze di best 2 e tasting 1
+con probabilita di best 0.000351741118537
+con probabilita di tasting 0.000175870559268
+e probabilita congiunta di 0.000175870559268 con Local Mutual Information di 11.4731983837 
+
+18 (((u'local', 'JJ'), (u'bus', 'NN')), 1)
+con frequenze di local 1 e bus 3
+con probabilita di local 0.000175870559268
+con probabilita di bus 0.000527611677805
+e probabilita congiunta di 0.000175870559268 con Local Mutual Information di 10.888235883 
+
+19 (((u'bad', 'JJ'), (u'space', 'NN')), 1)
+con frequenze di bad 4 e space 38
+con probabilita di bad 0.000703482237074
+con probabilita di space 0.0066830812522
+e probabilita congiunta di 0.000175870559268 con Local Mutual Information di 5.22527087023 
+
+20 (((u'whole', 'JJ'), (u'egg', 'NN')), 1)
+con frequenze di whole 3 e egg 2
+con probabilita di whole 0.000527611677805
+con probabilita di egg 0.000351741118537
+e probabilita congiunta di 0.000175870559268 con Local Mutual Information di 9.88823588296 
+
+
+la frase con probabilita' piu' alta lunga minimo 6 e massimo 8 token e nella quale ogni token ha frequenza maggiore di 2 e'
+it's clean and modern. con probabilita' calcolata con modello di markov di ordine 0 2.39251785271e-13
+
+la seconda frase con probabilita' piu' alta lunga minimo 6 e massimo 8 token e nella quale ogni token ha frequenza maggiore di 2 e'
+the area is safe and quiet enough. con probabilita' calcolata con modello di markov di ordine 1 1.13696639838e-10
+
+analisi secondo corpus
+
+I venti token piu' frequenti esclusa la punteggiatura sono
+
+1 the 302
+2 to 183
+3 and 155
+4 a 141
+5 i 111
+6 it 106
+7 was 74
+8 of 69
+9 in 66
+10 is 61
+11 for 58
+12 you 56
+13 this 54
+14 on 50
+15 that 43
+16 n't 41
+17 but 40
+18 we 35
+19 there 35
+20 not 34
+
+I 20 sostantivi piu' frequenti sono
+
+1 i 62
+2 room 22
+3 hotel 20
+4 blender 15
+5 breakfast 15
+6 time 14
+7 day 11
+8 cup 11
+9 bed 10
+10 way 10
+11 place 10
+12 nothing 9
+13 staff 9
+14 check 9
+15 reception 8
+16 people 8
+17 night 8
+18 luggage 7
+19 bit 7
+20 minutes 7
+
+I 20 aggettivi piu' frequenti sono
+
+1 i 22
+2 nice 9
+3 frozen 8
+4 first 8
+5 hot 7
+6 same 5
+7 little 5
+8 better 5
+9 great 5
+10 other 4
+11 difficult 4
+12 new 4
+13 bad 4
+14 best 4
+15 extra 4
+16 different 4
+17 couple 4
+18 open 3
+19 own 3
+20 second 3
+
+I 10 POS piu' frequenti sono
+
+1 DT
+2 .
+3 TO
+4 ,
+5 CC
+6 PRP
+7 VBD
+8 IN
+9 NN
+10 VBZ
+
+I venti bigrammi di token piu' frequenti, escluse le congiunzioni, gli articoli e la punteggiatura, sono:
+
+1 (((u'it', 'PRP'), (u'was', 'VBD')), 16)
+2 (((u'did', 'VBD'), (u"n't", 'RB')), 13)
+3 (((u'had', 'VBD'), (u'to', 'TO')), 10)
+4 (((u'it', 'PRP'), (u"'s", 'VBZ')), 10)
+5 (((u'we', 'PRP'), (u'were', 'VBD')), 9)
+6 (((u'to', 'TO'), (u'get', 'VB')), 8)
+7 (((u'do', 'VBP'), (u"n't", 'RB')), 8)
+8 (((u'to', 'TO'), (u'be', 'VB')), 7)
+9 (((u'i', 'NN'), (u'was', 'VBD')), 7)
+10 (((u'could', 'MD'), (u'have', 'VB')), 6)
+11 (((u'to', 'TO'), (u'make', 'VB')), 6)
+12 (((u'there', 'EX'), (u'is', 'VBZ')), 6)
+13 (((u'it', 'PRP'), (u'is', 'VBZ')), 6)
+14 (((u'it', 'PRP'), (u'would', 'MD')), 6)
+15 (((u'does', 'VBZ'), (u"n't", 'RB')), 6)
+16 (((u'is', 'VBZ'), (u'very', 'RB')), 6)
+17 (((u'have', 'VBP'), (u'to', 'TO')), 6)
+18 (((u'there', 'EX'), (u'was', 'VBD')), 6)
+19 (((u'you', 'PRP'), (u'have', 'VBP')), 5)
+20 (((u'i', 'NN'), (u'did', 'VBD')), 5)
+
+ I dieci bigrammi di POS piu' frequenti sono:
+
+1 (('DT', 'NN'), 378)
+2 (('IN', 'DT'), 188)
+3 (('NN', 'IN'), 160)
+4 (('TO', 'VB'), 142)
+5 (('JJ', 'NN'), 131)
+6 (('NN', '.'), 113)
+7 (('DT', 'JJ'), 98)
+8 (('NN', 'VBD'), 98)
+9 (('NN', 'NN'), 95)
+10 (('IN', 'NN'), 90)
+
+ I dieci trigrammi di POS piu' frequenti sono:
+
+1 (('IN', 'DT', 'NN'), 125)
+2 (('DT', 'JJ', 'NN'), 76)
+3 (('DT', 'NN', 'IN'), 69)
+4 (('NN', 'IN', 'DT'), 56)
+5 (('DT', 'NN', 'NN'), 52)
+6 (('DT', 'NN', '.'), 46)
+7 (('VB', 'DT', 'NN'), 42)
+8 (('DT', 'NN', 'CC'), 39)
+9 (('.', 'DT', 'NN'), 39)
+10 (('NN', 'IN', 'NN'), 39)
+
+I venti bigrammi composti da aggettivo-sostantivo con frequenza di token maggiore di 2 sono:
+
+1 (((u'serial', 'JJ'), (u'number', 'NN')), 3)
+con frequenze di serial 10 e number 11
+con probabilita di serial 0.00178922884237
+con probabilita di number 0.00196815172661
+e probabilita congiunta di 0.000536768652711 con Local Mutual Information di 7.25197724686 
+
+2 (((u'first', 'JJ'), (u'day', 'NN')), 3)
+con frequenze di first 8 e day 2
+con probabilita di first 0.0014313830739
+con probabilita di day 0.000357845768474
+e probabilita congiunta di 0.000536768652711 con Local Mutual Information di 10.0333369604 
+
+3 (((u'frozen', 'JJ'), (u'kale', 'NN')), 2)
+con frequenze di frozen 8 e kale 2
+con probabilita di frozen 0.0014313830739
+con probabilita di kale 0.000357845768474
+e probabilita congiunta di 0.000357845768474 con Local Mutual Information di 9.44837445966 
+
+4 (((u'frozen', 'JJ'), (u'banana', 'NN')), 2)
+con frequenze di frozen 2 e banana 3
+con probabilita di frozen 0.000357845768474
+con probabilita di banana 0.000536768652711
+e probabilita congiunta di 0.000357845768474 con Local Mutual Information di 10.8634119589 
+
+5 (((u'local', 'JJ'), (u'account', 'NN')), 2)
+con frequenze di local 2 e account 2
+con probabilita di local 0.000357845768474
+con probabilita di account 0.000357845768474
+e probabilita congiunta di 0.000357845768474 con Local Mutual Information di 11.4483744597 
+
+6 (((u'thermal', 'JJ'), (u'breaker', 'NN')), 2)
+con frequenze di thermal 2 e breaker 2
+con probabilita di thermal 0.000357845768474
+con probabilita di breaker 0.000357845768474
+e probabilita congiunta di 0.000357845768474 con Local Mutual Information di 11.4483744597 
+
+7 (((u'greek', 'JJ'), (u'yogurt', 'NN')), 2)
+con frequenze di greek 7 e yogurt 3
+con probabilita di greek 0.00125246018966
+con probabilita di yogurt 0.000536768652711
+e probabilita congiunta di 0.000357845768474 con Local Mutual Information di 9.05605703688 
+
+8 (((u'hot', 'JJ'), (u'water', 'NN')), 2)
+con frequenze di hot 4 e water 6
+con probabilita di hot 0.000715691536948
+con probabilita di water 0.00107353730542
+e probabilita congiunta di 0.000357845768474 con Local Mutual Information di 8.86341195894 
+
+9 (((u'different', 'JJ'), (u'location', 'NN')), 2)
+con frequenze di different 2 e location 2
+con probabilita di different 0.000357845768474
+con probabilita di location 0.000357845768474
+e probabilita congiunta di 0.000357845768474 con Local Mutual Information di 11.4483744597 
+
+10 (((u'raw', 'JJ'), (u'almonds', 'NNS')), 2)
+con frequenze di raw 12 e almonds 7
+con probabilita di raw 0.00214707461084
+con probabilita di almonds 0.00125246018966
+e probabilita congiunta di 0.000357845768474 con Local Mutual Information di 7.05605703688 
+
+11 (((u'only', 'JJ'), (u'thing', 'NN')), 2)
+con frequenze di only 4 e thing 7
+con probabilita di only 0.000715691536948
+con probabilita di thing 0.00125246018966
+e probabilita congiunta di 0.000357845768474 con Local Mutual Information di 8.64101953761 
+
+12 (((u'ten', 'JJ'), (u'minutes', 'NNS')), 2)
+con frequenze di ten 4 e minutes 3
+con probabilita di ten 0.000715691536948
+con probabilita di minutes 0.000536768652711
+e probabilita congiunta di 0.000357845768474 con Local Mutual Information di 9.86341195894 
+
+13 (((u'couple', 'JJ'), (u'cups', 'NN')), 2)
+con frequenze di couple 2 e cups 2
+con probabilita di couple 0.000357845768474
+con probabilita di cups 0.000357845768474
+e probabilita congiunta di 0.000357845768474 con Local Mutual Information di 11.4483744597 
+
+14 (((u'operator', 'JJ'), (u'error', 'NN')), 2)
+con frequenze di operator 4 e error 2
+con probabilita di operator 0.000715691536948
+con probabilita di error 0.000357845768474
+e probabilita congiunta di 0.000357845768474 con Local Mutual Information di 10.4483744597 
+
+15 (((u'couple', 'JJ'), (u'spoons', 'NNS')), 2)
+con frequenze di couple 8 e spoons 4
+con probabilita di couple 0.0014313830739
+con probabilita di spoons 0.000715691536948
+e probabilita congiunta di 0.000357845768474 con Local Mutual Information di 8.44837445966 
+
+16 (((u'frozen', 'JJ'), (u'berries', 'NNS')), 2)
+con frequenze di frozen 5 e berries 11
+con probabilita di frozen 0.000894614421184
+con probabilita di berries 0.00196815172661
+e probabilita congiunta di 0.000357845768474 con Local Mutual Information di 7.66701474614 
+
+17 (((u'same', 'JJ'), (u'day', 'NN')), 1)
+con frequenze di same 4 e day 1
+con probabilita di same 0.000715691536948
+con probabilita di day 0.000178922884237
+e probabilita congiunta di 0.000178922884237 con Local Mutual Information di 10.4483744597 
+
+18 (((u'other', 'JJ'), (u'options', 'NNS')), 1)
+con frequenze di other 1 e options 1
+con probabilita di other 0.000178922884237
+con probabilita di options 0.000178922884237
+e probabilita congiunta di 0.000178922884237 con Local Mutual Information di 12.4483744597 
+
+19 (((u'asthma', 'JJ'), (u'attack', 'NN')), 1)
+con frequenze di asthma 15 e attack 1
+con probabilita di asthma 0.00268384326355
+con probabilita di attack 0.000178922884237
+e probabilita congiunta di 0.000178922884237 con Local Mutual Information di 8.54148386405 
+
+20 (((u'back', 'JJ'), (u'alley', 'NN')), 1)
+con frequenze di back 2 e alley 4
+con probabilita di back 0.000357845768474
+con probabilita di alley 0.000715691536948
+e probabilita congiunta di 0.000178922884237 con Local Mutual Information di 9.44837445966 
+
+
+la frase con probabilita' piu' alta lunga minimo 6 e massimo 8 token e nella quale ogni token ha frequenza maggiore di 2 e'
+had to put on floor. con probabilita' calcolata con modello di markov di ordine 0 1.09740162947e-13
+
+la seconda frase con probabilita' piu' alta lunga minimo 6 e massimo 8 token e nella quale ogni token ha frequenza maggiore di 2 e'
+the power button does nothing. con probabilita' calcolata con modello di markov di ordine 1 9.33435444989e-07

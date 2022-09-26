@@ -1,0 +1,66 @@
+
+Confronto di corpusuno.txt e  corpusdue.txt
+
+Divisione in frasi e parole corpusuno.txt
+
+Il numero totale di token e' 5686
+
+Il numero totale di frasi e' 346
+
+La lunghezza media delle frasi e' 16
+
+La lunghezza media delle parole e' 4.68255364052 
+
+la grandezza del vocabolario per 1000  token e' 390
+la type token ratio dei primi 1000  token e' 0.39
+la grandezza del vocabolario per 2000  token e' 695
+la type token ratio dei primi 2000  token e' 0.3475
+la grandezza del vocabolario per 3000  token e' 903
+la type token ratio dei primi 3000  token e' 0.301
+la grandezza del vocabolario per 4000  token e' 1030
+la type token ratio dei primi 4000  token e' 0.2575
+la grandezza del vocabolario per 5000  token e' 1172
+la type token ratio dei primi 5000  token e' 0.2344
+
+La grandezza della classe di frequenza 3 sui primi 5000 token e' 91
+
+La grandezza della classe di frequenza 6 sui primi 5000 token e' 27
+
+La grandezza della classe di frequenza 9 sui primi 5000 token e' 14 
+
+Il numero medio di sostantivi per frase e' 3.52601156069
+Il numero medio di aggettivi per frase e' 1.56358381503
+Il numero medio di verbi per frase e' 2.70520231214
+La densita' lessicale e' 0.60031073995
+
+Divisione in frasi e parole corpusdue.txt
+
+Il numero totale di token e' 5589
+
+Il numero totale di frasi e' 283
+
+La lunghezza media delle frasi e' 19
+
+La lunghezza media delle parole e' 4.63911254249 
+
+la grandezza del vocabolario per 1000  token e' 410
+la type token ratio dei primi 1000  token e' 0.41
+la grandezza del vocabolario per 2000  token e' 645
+la type token ratio dei primi 2000  token e' 0.3225
+la grandezza del vocabolario per 3000  token e' 836
+la type token ratio dei primi 3000  token e' 0.278666666667
+la grandezza del vocabolario per 4000  token e' 1015
+la type token ratio dei primi 4000  token e' 0.25375
+la grandezza del vocabolario per 5000  token e' 1158
+la type token ratio dei primi 5000  token e' 0.2316
+
+La grandezza della classe di frequenza 3 sui primi 5000 token e' 86
+
+La grandezza della classe di frequenza 6 sui primi 5000 token e' 15
+
+La grandezza della classe di frequenza 9 sui primi 5000 token e' 12 
+
+Il numero medio di sostantivi per frase e' 3.87985865724
+Il numero medio di aggettivi per frase e' 1.32155477032
+Il numero medio di verbi per frase e' 3.73851590106
+La densita' lessicale e' 0.572038834951
